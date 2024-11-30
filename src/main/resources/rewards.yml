@@ -4,29 +4,243 @@
 # you can create any amount of rewards here, make sure to set the day
 # only 1 reward should be connected to a single day (in a single reward, you can give multiple items/run commands)
 
-reward-example:
-  # days when this rewards will be given
+reward-example1:
   days:
-    - "1-23"
-  # you can add item rewards
+    - "1"
   items:
-    - material: APPLE
-      name: "&#AA00FFJust a regular apple"
-      amount: 1
-  # you can add command rewards
+    - material: golden_carrot
+      amount: 32
   commands:
-    - "say %player% got an apple from the calendar!"
-  # this will be sent when the player claims a reward
+    - "say %player% got 32 golden carrots from the calendar!"
   message: "&#33FF33You have claimed the day %day% present!"
 
-reward-example2:
+  reward-example2:
+  days:
+    - "2"
+  items:
+    - material: white_bed
+      amount: 1
+  commands:
+    - "say %player% got a white Bed from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example3:
+  days:
+    - "3"
+  items:
+    - material: red_candle
+      amount: 1
+  commands:
+    - "say %player% got a red candle from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example4:
+  days:
+    - "4"
+  items:
+    - material: bell
+      amount: 1
+  commands:
+    - "say %player% got a Bell from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example5:
+  days:
+    - "5"
+  items:
+    - material: saddle
+      amount: 1
+  commands:
+    - "say %player% got a saddle from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example6:
+  days:
+    - "6"
+  items:
+    - material: horse_spawn_egg
+      amount: 1
+  commands:
+    - "say %player% got a Horse from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example7:
+  days:
+    - "7"
+  items:
+    - material: Painting
+      amount: 1
+  commands:
+    - "say %player% got a Painting from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example8:
+  days:
+    - "8"
+  items:
+    - material: red_candle
+      amount: 1
+  commands:
+    - "say %player% got a red candle from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example9:
+  days:
+    - "9"
+  items:
+    - material: goat_horn
+      amount: 1
+  commands:
+    - "say %player% got a goat horn from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example10:
+  days:
+    - "10"
+  items:
+    - material: jukebox
+      amount: 1
+  commands:
+    - "say %player% got a Jukebox from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example11:
+  days:
+    - "11"
+  items:
+    - material: music_disc_wait
+      amount: 1
+  commands:
+    - "say %player% got a music disc from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example12:
+  days:
+    - "12"
+  items:
+    - material: golden_apple
+      amount: 1
+  commands:
+    - "say %player% got a golden Apple from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example13:
+  days:
+    - "13"
+  items:
+    - material: totem_of_undying
+      amount: 1
+  commands:
+    - "say %player% got a totem of undying from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example14:
+  days:
+    - "14"
+  items:
+    - material: name_tag
+      amount: 1
+  commands:
+    - "say %player% got a name tag from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example15:
+  days:
+    - "15"
+  items:
+    - material: red_candle
+      amount: 1
+  commands:
+    - "say %player% got a red candle from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example16:
+  days:
+    - "16"
+  items:
+    - material: snowball
+      amount: 16
+  commands:
+    - "say %player% got 16 snow balls from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example17:
+  days:
+    - "17"
+  items:
+    - material: rabbit_stew
+      amount: 1
+  commands:
+    - "say %player% got a rabbit stew from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example18:
+  days:
+    - "18"
+  items:
+    - material: honey_bottle
+      amount: 1
+  commands:
+    - "say %player% got a honey bottle from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example19:
+  days:
+    - "19"
+  items:
+    - material: sweet_berries
+      amount: 16
+  commands:
+    - "say %player% got 16 sweet berries from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example20:
+  days:
+    - "20"
+  items:
+    - material: shulker_box
+      amount: 1
+  commands:
+    - "say %player% got a shulker box from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example21:
+  days:
+    - "21"
+  items:
+    - material: netherite_ingot
+      amount: 1
+  commands:
+    - "say %player% got a netherite ingot from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+  reward-example22:
+  days:
+    - "22"
+  items:
+    - material: red_candle
+      amount: 1
+  commands:
+    - "say %player% got a red candle from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+  
+  reward-example23:
+  days:
+    - "23"
+  items:
+    - material: cod
+      amount: 64
+  commands:
+    - "say %player% got 64 cod from the calendar!"
+  message: "&#33FF33You have claimed the day %day% present!"
+
+reward-example24:
   days:
     - "24"
   items:
-    - material: FIREWORK_ROCKET
-      name: "&#AA00FFAxCalendar Rocket"
+    - material: cat_spawn_egg
       glow: true
       amount: 1
   commands:
-    - "say %player% got a firework rocket from the calendar!"
+    - "say %player% got a cat from the calendar!"
   message: "&#33FF33You have claimed the day %day% present!"
